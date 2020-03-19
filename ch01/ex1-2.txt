@@ -1,0 +1,14 @@
+예제 1-2 메일의 원시 정보
+
+Delivered-To: yoshiki@shibu.jp
+(생략)
+MIME-Version: 1.0
+Received: by 10.176.69.212 with HTTP; Wed, 6 Apr 2016 06:26:27 -0700 (PDT)
+From: Yoichi Fujimoto <wozozo@exmaple.com>
+Date: Wed, 6 Apr 2016 22:26:27 +0900
+Message-ID: <CAAw3=wyHz1cH=D_8uNRLAo5e4VCC0+c2CGPeEd4jCk0gnJJkDg@mail.gmail.com>
+Subject: hi
+To: yoshiki@shibu.jp
+Content-Type: text/plain; charset=UTF-8
+
+hello
