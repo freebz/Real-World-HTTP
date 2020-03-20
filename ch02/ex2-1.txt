@@ -1,0 +1,15 @@
+예제 2-1 자동으로 POST하는 폼을 사용해 리디렉트하기
+
+HTTP/1.1 200 OK
+Date: 21 Jan 2004 07:00:49 GMT
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE html>
+<html>
+<body onload="document.forms[0].submit()">
+<form action="리디렉트하고 싶은 곳" method="post">
+<input type="hidden" name="data"
+value="보내고 싶은 메시지"/>
+<input type="submit" value="Continue"/>
+</form>
+</body>

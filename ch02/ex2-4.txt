@@ -1,0 +1,3 @@
+예제 2-4 X-Rotos-Tag
+
+X-Robots-Tag: noindex, nofollow
