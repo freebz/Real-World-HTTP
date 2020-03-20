@@ -1,0 +1,8 @@
+예제 3-5 쿼리를 받은 서버 쪽 로그
+
+URL: "/?query=hello+world"
+Query: {
+    "query": []string{
+    "hello world",
+    },
+}
