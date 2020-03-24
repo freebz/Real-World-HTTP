@@ -1,0 +1,19 @@
+예제 5-13 자동으로 POST 하는 폼을 사용해 리디렉트하기
+
+HTTP/1.1 200 OK
+
+Date: 21 Jan 2004 07:00:49 GMT
+Content-Type: text/html; charset=iso=8859-1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<body onload="document.forms[0].submit()">
+<form action="https://IdentityProvider.com/SAML/SLO/Response" method="post">
+<input type="hidden" name="RelayState"
+value="0043bfc1bc45110dae17004005b13a2b"/>
+<input type="hidden" name="SAMLRequest"
+value="(base64 인코딩한 XML 메시지)"/>
+<input type="submit" value="Continue"/>
+</form>
+</body>
+</html>

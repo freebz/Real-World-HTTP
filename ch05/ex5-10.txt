@@ -1,0 +1,15 @@
+예제 5-10 XML-RPC의 응답 예제
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 158
+Content-Type: text/xml
+
+<?xml version="1.0"?>
+<methodResponse>
+  <params>
+    <param>
+      <value><string>South Dakota</string></value>
+    </param>
+  </params>
+</methodResponse>

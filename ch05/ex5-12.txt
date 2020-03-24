@@ -1,0 +1,17 @@
+예제 5-12 JSON-RPC의 기본적인 응용
+
+POST /jsonrpc HTTP/1.1
+Host: api.exmaple.com
+Content-Type: application/json
+Content-Length: 94
+Accept: application/json
+
+{"jsonrpc": "2.0",
+ "method": "subtract",
+ "params": {"subtrahend": 23, "minuend": 42},
+ "id": 3}
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 41
+
+{"jsonrpc": "2.0", "result": 19, "id": 3}

@@ -1,0 +1,33 @@
+예제 5-11 SOAP 메시지의 예
+
+POST /Reservation HTTP/1.1
+
+Host: travelcompany.exmaple.org
+Content-Type: application/soap+xml; charset="utf-8"
+Content-Length: nnnn
+
+<?xml version='1.0' ?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+ <env:Header>
+   <t:transaction
+       xmlns:t="http://thirdparty.example.org/transaction"
+       env:encodingStyle="http://example.com/encoding"
+       env:mustUnderstand="true" >5</t:transaction>
+ </env:Header>
+ <env:Body>
+   <m:chargeReservation
+      env:encodingStyle="http://www.w3.org/2003/05/soap-encoding"
+           xmlns:m="http://travelcompany.example.org/">
+   <m:reservation xmlns:m="http://travelcompany.exmaple.org/reservation">
+    <m:code>FT35ZBQ</m:code>
+   </m:reservation>
+    <o:creditCard xmlns:o="http://mycompany.example.com/financial">
+     <n:name xmlns:n="http://mycompany.example.com/employees">
+	   Åke Jógvan Øyvind
+     </n:name>
+     <o:number>123456789099999</o:number>
+     <o:expiration>2005-02</o:expiration>
+    </o:creditCard>
+   </mchargeReservation>
+  </env:Body>
+</env:Envlope>

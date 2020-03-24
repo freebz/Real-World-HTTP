@@ -1,0 +1,16 @@
+예제 5-9 XML-RPC의 요청 샘플
+
+POST /RPC2 HTTP/1.0
+Host: betty.userland.com
+Content-Type: text/xml
+Content-length: 181
+
+<?xml version="1.0">
+<methodCall>
+    <methodName>examples.getStateName</methodName>
+    <params>
+      <param>
+        <value><i4>41</i4></value>
+      </param>
+    </params>
+</methodCall>
