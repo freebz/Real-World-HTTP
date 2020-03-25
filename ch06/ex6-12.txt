@@ -1,0 +1,4 @@
+예제 6-12 프로토콜 업그레이드 헤더의 예
+
+Upgrade: MyProtocol
+Connection: Upgrade

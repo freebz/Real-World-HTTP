@@ -1,0 +1,11 @@
+예제 6-3 OpenSSL의 설정 파일
+
+[CA]
+basicConstraints=critical,CA:TRUE,pathlen:0
+keyUsage=digitalSignature,dataEncipherment
+extendedKeyUsage=serverAuth
+
+[Client]
+basicConstraints=CA:FALSE
+keyUsage=digitalSignature,dataEncipherment
+extendedKeyUsage=clientAuth

@@ -1,0 +1,13 @@
+예제 6-4 OpenSSL의 권장 설정 항목
+
+[req_distinguished_name]
+# 기본 국가 코드
+countryName_default            = JP
+# 기본 도/주
+stateOrProvinceName_default    = Tokyo
+# 기본 도시명
+localityName_default           = Itabashi
+# 기본 조직명
+0.organizationName_default     = example.com
+# 기본 관리자 메일 주소
+emailAddress_default           = webmaster@exmaple.com
