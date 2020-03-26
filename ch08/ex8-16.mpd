@@ -1,0 +1,8 @@
+<!-- 예제 8-16 동영상용 <Representation> 태그 -->
+
+<Representation id="242" codecs="vp9" width="426" height="240" startWithSAP="1" bandwidth=="490208">
+  <BaseURL>feelings_vp9-20130806-242.webm</BaseURL>
+  <SegmentBase indexRange="234-682" indexRangeExact="true">
+    <Initialization range="0-233" />
+  </SegmentBase>
+</Repesentation>

@@ -1,0 +1,11 @@
+<!-- 예제 8-15 오디오용 <Representation> 태그 -->
+
+<Representation id="171" codecs="vorbis" audioSamplingRate="44100" startWithSAP="1" bandwidth="129553">
+  <AudioChannelConfiguration
+      schemaIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011"
+      value="2" />
+  <BaseURL>feelings_vp9-20130806-171.webm</BaseURL>
+  <SegmentBase indexRange="4452-4686" indexRangeExact="true">
+    <Initialization range="0-4451" />
+  </SegmentBase>
+</Repesentation>

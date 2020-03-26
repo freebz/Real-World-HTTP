@@ -1,0 +1,15 @@
+<!-- 예제 8-2 더블린 코어가 이용되는 EPUB 파일 -->
+
+<metadata
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:opf="http://www.idpf.org/2007/opf">
+  <dc:title id="title">Mithril</dc:title>
+  <dc:language id="language">ja</dc:language>
+  <dc:date id="date">2015-08-03</dc:date>
+  <dc:rights id="rights-0">© 2015 Yoshiki Shibukawa.</dc:rights>
+  <dc:rights id="rights-1">© 2015 O'Reilly Japan, Inc.</dc:rights>
+  <dc:identifier id="BookId">9784873117447</dc:identifier>
+  <dc:creator id="aut-0"> 시부카와 요시키 </dc:creator>
+  <dc:contributor id="prt-0"> 주식회사 오라일리 저팬 </dc:contributor>
+  <dc:publisher id="pub-prt-0"> 주식회사 오라일리 저팬 </dc:publisher>
+</metadata>

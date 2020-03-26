@@ -1,0 +1,18 @@
+<!-- 예제 8-14 <Period> 태그 안의 <AdaptationSet> 태그 -->
+
+<AdaptationSet mimeType="audio/webm" subsegmentAlignment="true">
+  <Representation id="171" codecs="vorbis" audioSamplingRate="44100" startWithSAP="1" bandwidth="129553">
+      :
+  </Representation>
+  <Representation id="172" codecs="vorbis" audioSamplingRate="44100" startWithSAP="1" bandwidth="188041">
+      :
+  </Representation>
+</AdaptationSet>
+<AdaptationSet mimeType="video/webm" subsegmentAlignment="true">
+  <Representation id="245" codecs="vp9" width="854" height="480" startWithSAP="1" bandwidth="1431499">
+      :
+  </Representation>
+  <Representation id="247" codecs="vp9" width=1280" height=="720" startWithSAP="1" bandwidth="3915200">
+      :
+  </Representation>
+</AdaptationSet>

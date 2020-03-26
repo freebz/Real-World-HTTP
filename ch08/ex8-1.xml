@@ -1,0 +1,19 @@
+<!-- 예제 8-1 RDF 예제 -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:schema="http://schema.org/">
+  <rdf:Description rdf:about="http://example.org/bob#me">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+      <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-07-04</schema:birthDate>
+    <foaf:knows rdf:resource="http://example.org/alice#me"/>
+    <foaf:topic_interest rdf:resource="http://www.wikidata.org/entity/Q12418"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q12418">
+    <determs:title>Mona Lisa</dcterms:title>
+    <dcterms:creator rdf:resource="http://dbpedia.org/resource/Leonardo_da_Vinci"/>
+  </rdf:Description>
+</rdf:RDF>
