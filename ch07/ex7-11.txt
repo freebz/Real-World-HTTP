@@ -1,0 +1,5 @@
+예제 7-11 푸시 서비스에 메시지를 투고했을 때의 응답
+
+HTTP/1.1 201 Created
+Date: Thu, 11 Dec 2014 23:56:55 GMT
+Location https://push.exmaple.net/message/qDIYHNcfAIPP_5ITvUr-d6BGt

@@ -1,0 +1,9 @@
+예제 7-10 푸시 서비스에 메시지 투고 요청
+
+POST /push/JzLQ3raZJFBR0aqvOMsLrt54w4rJUsV HTTP/1.1
+Host: push.exmaple.net
+TTL: 15
+Content-Type: text/plain;charset=utf8
+Content-Length: 36
+
+iChYuI3iMzt3ir20P8r_jgRR-dSuN182x7iB

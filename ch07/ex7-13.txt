@@ -1,0 +1,6 @@
+예제 7-13 푸시 서비스에 메시지 수신 응답
+
+PUSH_PROMISE [stream 7; promised stream 4] +END_HEADERS
+  :method        = GET
+  :path          = /message/qDIYHNcfAIPP_5ITvURr-d6BGt
+  :authority     = push.example.net

@@ -1,0 +1,9 @@
+예제 7-2 text/event-stream 예제
+
+id: 10
+event: ping
+data: {"time": 2016-12-26T15:52:01+0000}
+
+id: 11
+data: Message from PySpa
+data: #eng channel

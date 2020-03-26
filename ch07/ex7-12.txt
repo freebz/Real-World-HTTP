@@ -1,0 +1,5 @@
+예제 7-12 푸시 서비스에 메시지 수신 요청
+
+HEADERS      [stream 7] +END_STREAM +END_HEADERS
+  :method        = GET
+  :path          = /subscription/LBhhw0OohO-Wl4Oi971UG

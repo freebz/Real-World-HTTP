@@ -1,0 +1,9 @@
+예제 7-9 푸시 서비스에서 브라우저로의 응답
+
+HTTP/1.1 201 Created
+Date: Thu, 11 Dec 2014 23:56:52 GMT
+Link: </push/JzLQ3raZJfFBR0aqvOMsLrt54w4rJUsV>;
+        rel="urn:ietf:params:push"
+Link: </subscription-set/4UXwi2Rd7jGS7gp5cuutF8ZldnEuvbOy>;
+        rel="urn:ietf:params:push:set"
+Location: https://push.example.net/subscription/LBhhw0OohO-Wl4Oi971UG

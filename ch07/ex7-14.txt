@@ -1,0 +1,17 @@
+예제 7-14 전송된 메시지
+
+HEADERS      [stream 4] +END_HEADERS
+  :status        = 200
+  date           = Thu, 11 Dec 2014 23:56:56 GMT
+  last-modified  = Thu, 11 Dec 2014 23:56:55 GMT
+  cache-control  = private
+  link           = </push/jzLQ3raZJfFBR0aqvOMsLrt54w4rJUsV>;
+                    rel="urn:ietf:params:push"
+  content-type   = text/plain;charset=utf8
+  content-length = 36
+
+DATA         [stream 4] +END_STREAM
+  iChYuI3jMzt3ir20P8r_jgRR-dSuN182x7iB
+
+HEADERS      [stream 7] +END_STREAM +END_HEADERS
+  :status        = 200

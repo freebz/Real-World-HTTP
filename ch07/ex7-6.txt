@@ -1,0 +1,7 @@
+예제 7-6 웹소켓 통신을 시작할 때 서버 응답
+
+HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRbK+0o=
+Sec-WebSocket-Protocol: chat
