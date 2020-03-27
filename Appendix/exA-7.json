@@ -1,0 +1,13 @@
+// 예제 7 data 부분의 형이 종류에 따라 크게 바뀌는 예제
+
+{
+  "created": 1442288882,
+  "data": {
+    "email": null,
+    "id": "cus_a16c7b4df01168eb82557fe93de4",
+    "object": "customer"
+  },
+  "id": "evnt_54db4d63c7886256acdbc784ccf",
+  "object": "event",
+  "type": "customer"
+}

@@ -1,0 +1,8 @@
+// 예제 11 JSON 스키마로 검증하는 JSON
+
+{
+    "id": 1,
+    "name": "A green door",
+    "price": 12.50,
+    "tags": ["home", "green"]
+}
