@@ -1,0 +1,5 @@
+예제 10-1 리소스 액세스 권한에 관한 CSP 설정 예
+
+Content-Security-Policy: img-src 'self' data: blob: filesystem:;
+                         media-src mediastream:;
+			 script-src 'self' https://store.example.com
